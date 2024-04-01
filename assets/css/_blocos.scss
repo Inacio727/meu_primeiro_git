@@ -1,0 +1,23 @@
+ul.blocos {
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+    li {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+
+        &:nth-child(1) {
+            background-color: red;
+        }
+        &:nth-child(2) {
+            background-color: pink;
+        }
+        &:nth-child(3) {
+            background-color: aquamarine;
+        }
+    }
+}

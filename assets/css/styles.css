@@ -1,1 +1,36 @@
-/*# sourceMappingURL=styles.css.map */
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  transition: all 0.5s;
+}
+body.dark {
+  background-color: rgb(19, 19, 19);
+  color: rgb(236, 236, 236);
+}
+
+ul.blocos {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+ul.blocos li {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+ul.blocos li:nth-child(1) {
+  background-color: red;
+}
+ul.blocos li:nth-child(2) {
+  background-color: pink;
+}
+ul.blocos li:nth-child(3) {
+  background-color: aquamarine;
+}/*# sourceMappingURL=styles.css.map */

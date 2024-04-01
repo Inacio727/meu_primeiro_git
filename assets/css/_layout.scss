@@ -1,0 +1,9 @@
+body{
+    font-family: $font;
+    transition: all 0.5s;
+
+    &.dark {
+        background-color: $cor-primaria;
+        color: $cor-secundaria;
+    }
+}
