@@ -13,9 +13,21 @@ body.dark {
   color: rgb(236, 236, 236);
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 1140px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ul.blocos {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   list-style: none;
 }
 ul.blocos li {

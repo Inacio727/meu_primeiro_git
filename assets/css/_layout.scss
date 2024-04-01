@@ -7,3 +7,14 @@ body{
         color: $cor-secundaria;
     }
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
